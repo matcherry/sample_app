@@ -1,0 +1,9 @@
+##taurus tes
+- concurrency: 50
+   hold-for: 5m
+   ramp-up: 120s 
+   scenario: Thread Group     
+   requests: 
+   - label: test      
+       method: GET
+       url: 172.17.0.1:5050
