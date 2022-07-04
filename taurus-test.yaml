@@ -9,4 +9,4 @@ scenarios:
     requests:
     - label: sample-app
       method: GET
-      url: http://localhost:5151/ 
+      url: http://172.17.0.1:5151/ 
