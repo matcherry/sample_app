@@ -14,5 +14,5 @@ echo "EXPOSE 5151" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/sample_app.py" >> tempdir/Dockerfile
 cd tempdir
 docker build -t sampleapp .
-docker run -t -d -p 5151:5050 --name samplerunning sampleapp
+docker run -t -d -p 5151:5151 --name samplerunning sampleapp
 docker ps -a

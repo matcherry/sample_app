@@ -1,0 +1,279 @@
+[2022-07-04 11:49:50,945 INFO root] Taurus CLI Tool v1.16.3
+[2022-07-04 11:49:50,945 DEBUG root] Build: 14273 Thu Jan 27 17:46:44 UTC 2022
+[2022-07-04 11:49:50,946 DEBUG root] Extended git info:  683c2b70 Release 1.16.3
+[2022-07-04 11:49:50,946 DEBUG root] Command-line options: {'log': '/var/folders/3w/89gsk1z94zd_rzqk1_csgw6r0000gn/T/bzt_2_gygltp.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': ['report']}
+[2022-07-04 11:49:50,946 DEBUG root] Python: CPython 3.9.12
+[2022-07-04 11:49:50,946 DEBUG root] OS: uname_result(system='Darwin', node='BA-00002663.local', release='20.6.0', version='Darwin Kernel Version 20.6.0: Wed Nov 10 22:23:07 PST 2021; root:xnu-7195.141.14~1/RELEASE_X86_64', machine='x86_64')
+[2022-07-04 11:49:50,946 DEBUG root] Path to interpreter: /usr/local/Cellar/bzt/1.16.3/libexec/bin/python3.9
+[2022-07-04 11:49:50,946 DEBUG root] Path to packages: ['/usr/local/Cellar/bzt/1.16.3/libexec/bin', '/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python39.zip', '/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9', '/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload', '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages', '/usr/local/opt/numpy/lib/python3.9/site-packages', '/usr/local/opt/six/lib/python3.9/site-packages', '/usr/local/lib/python3.9/site-packages']
+[2022-07-04 11:49:50,946 DEBUG root] Default python: /usr/bin/python
+[2022-07-04 11:49:50,946 DEBUG root] Default python3: /usr/local/bin/python3
+[2022-07-04 11:49:50,946 DEBUG root] Using personal config: /Users/rismanda.kusumadewi/.bzt-rc
+[2022-07-04 11:49:50,946 INFO root] Starting with configs: ['/Users/rismanda.kusumadewi/.bzt-rc', 'taurus-test.yaml']
+[2022-07-04 11:49:50,946 INFO Engine] Configuring...
+[2022-07-04 11:49:50,964 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml']
+[2022-07-04 11:49:50,964 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml']
+[2022-07-04 11:49:50,965 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml as YAML
+[2022-07-04 11:49:50,987 DEBUG Engine] User configs list: ['/Users/rismanda.kusumadewi/.bzt-rc', 'taurus-test.yaml']
+[2022-07-04 11:49:50,987 DEBUG Engine.Configuration] Configs: ['/Users/rismanda.kusumadewi/.bzt-rc', 'taurus-test.yaml']
+[2022-07-04 11:49:50,988 DEBUG Engine.Configuration] Reading /Users/rismanda.kusumadewi/.bzt-rc as YAML
+[2022-07-04 11:49:50,996 DEBUG Engine.Configuration] Reading taurus-test.yaml as YAML
+[2022-07-04 11:49:50,997 DEBUG Engine.Configuration] Configs: ['/Users/rismanda.kusumadewi/.bzt-rc', 'taurus-test.yaml']
+[2022-07-04 11:49:50,998 DEBUG Engine.Configuration] Reading /Users/rismanda.kusumadewi/.bzt-rc as YAML
+[2022-07-04 11:49:51,002 DEBUG Engine.Configuration] Reading taurus-test.yaml as YAML
+[2022-07-04 11:49:51,005 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.3&installID=macos-f01898107cdb
+[2022-07-04 11:49:51,005 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.3&installID=macos-f01898107cdb
+[2022-07-04 11:49:51,006 INFO Engine] Artifacts dir: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745
+[2022-07-04 11:49:51,007 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective
+[2022-07-04 11:49:51,009 DEBUG Engine.Configuration] Dumping YAML config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.yml
+[2022-07-04 11:49:51,041 DEBUG Engine.Configuration] Dumping JSON config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.json
+[2022-07-04 11:49:51,042 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/merged.yml
+[2022-07-04 11:49:51,043 DEBUG Engine.Configuration] Dumping YAML config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/merged.yml
+[2022-07-04 11:49:51,045 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/merged.json
+[2022-07-04 11:49:51,045 DEBUG Engine.Configuration] Dumping JSON config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/merged.json
+[2022-07-04 11:49:51,046 DEBUG Engine] Add existing artifact (move=False): /Users/rismanda.kusumadewi/.bzt-rc
+[2022-07-04 11:49:51,046 DEBUG Engine] Copying /Users/rismanda.kusumadewi/.bzt-rc to /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/.bzt-rc
+[2022-07-04 11:49:51,047 DEBUG Engine] Add existing artifact (move=False): taurus-test.yaml
+[2022-07-04 11:49:51,047 DEBUG Engine] Copying taurus-test.yaml to /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/taurus-test.yaml
+[2022-07-04 11:49:51,049 DEBUG Engine] Set PYTHONPATH to :
+	USER: '' +
+	TEMP: '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/python-packages/3.9.12' +
+	CURRENT: '/Users/rismanda.kusumadewi/.bzt/python-packages/3.9.12'
+[2022-07-04 11:49:51,049 DEBUG Engine] Content of user packages dir: []
+[2022-07-04 11:49:51,051 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2022-07-04 11:49:51,052 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745
+[2022-07-04 11:49:51,052 DEBUG root] Closing log handler: /var/folders/3w/89gsk1z94zd_rzqk1_csgw6r0000gn/T/bzt_2_gygltp.log
+[2022-07-04 11:49:51,053 DEBUG root] Switched writing logs to /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/bzt.log
+[2022-07-04 11:49:51,053 DEBUG root] Linting config
+[2022-07-04 11:49:51,055 INFO Engine] Preparing...
+[2022-07-04 11:49:51,056 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2022-07-04 11:49:51,056 DEBUG root] Importing module: bzt.modules.aggregator
+[2022-07-04 11:49:51,220 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2022-07-04 11:49:58,375 DEBUG HTTPClient] Request resulted in exception: Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.3&installID=macos-f01898107cdb (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/utils.py", line 1237, in request
+    return self.session.request(method, url, *args, **kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.3&installID=macos-f01898107cdb (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+[2022-07-04 11:49:58,397 DEBUG Engine] Failed to check for updates: Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.3&installID=macos-f01898107cdb (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/utils.py", line 1237, in request
+    return self.session.request(method, url, *args, **kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='gettaurus.org', port=443): Max retries exceeded with url: /updates/?version=1.16.3&installID=macos-f01898107cdb (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/engine/engine.py", line 728, in _check_updates
+    response = client.request('GET', addr, timeout=10)
+  File "/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/utils.py", line 1244, in request
+    raise TaurusNetworkError(msg)
+bzt.TaurusNetworkError: Request to https://gettaurus.org/updates/?version=1.16.3&installID=macos-f01898107cdb failed
+
+[2022-07-04 11:49:58,397 WARNING Engine] Failed to check for updates
+[2022-07-04 11:49:58,958 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/aggregator.py'>
+[2022-07-04 11:49:58,958 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2022-07-04 11:49:58,959 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2022-07-04 11:49:58,959 DEBUG root] Importing module: bzt.modules.monitoring
+[2022-07-04 11:49:58,961 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/monitoring.py'>
+[2022-07-04 11:49:58,961 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2022-07-04 11:49:58,961 DEBUG root] Importing module: bzt.modules.provisioning
+[2022-07-04 11:49:58,961 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/provisioning.py'>
+[2022-07-04 11:49:58,961 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler', 'mqtt': 'bzt.jmx.mqtt.MQTTProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2022-07-04 11:49:58,961 DEBUG root] Importing module: bzt.modules.jmeter
+[2022-07-04 11:49:58,973 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/jmeter.py'>
+[2022-07-04 11:49:58,973 DEBUG Engine.local] Preparing executor: jmeter/4520167936
+[2022-07-04 11:49:58,974 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter.log
+[2022-07-04 11:49:58,974 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2022-07-04 11:49:58,975 DEBUG Engine.jmeter] Port 4445 is free
+[2022-07-04 11:49:58,976 DEBUG Engine.jmeter] Using port 4445 for management
+[2022-07-04 11:49:58,976 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/requests.jmx
+[2022-07-04 11:49:58,979 DEBUG root] Importing module: bzt.jmx.http
+[2022-07-04 11:49:58,983 DEBUG root] Loading class: 'HTTPProtocolHandler' from <module 'bzt.jmx.http' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/jmx/http.py'>
+[2022-07-04 11:49:58,983 DEBUG root] Importing module: bzt.jmx.mqtt
+[2022-07-04 11:49:58,984 DEBUG root] Loading class: 'MQTTProtocolHandler' from <module 'bzt.jmx.mqtt' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/jmx/mqtt.py'>
+[2022-07-04 11:49:58,985 DEBUG JMeterScenarioBuilder] Saving JMX to: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/requests.jmx
+[2022-07-04 11:49:58,988 DEBUG Engine.jmeter] Additional system properties {'sun.net.inetaddr.ttl': 0}
+[2022-07-04 11:49:58,988 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/system.properties
+[2022-07-04 11:49:58,988 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745:/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745'}
+[2022-07-04 11:49:58,988 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter-bzt.properties
+[2022-07-04 11:49:58,989 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2022-07-04 11:49:58,989 DEBUG root] Executing shell: ['java', '-version'] at .
+[2022-07-04 11:49:59,882 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "16.0.2" 2021-07-20
+Java(TM) SE Runtime Environment (build 16.0.2+7-67)
+Java HotSpot(TM) 64-Bit Server VM (build 16.0.2+7-67, mixed mode, sharing)
+
+[2022-07-04 11:49:59,883 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2022-07-04 11:49:59,883 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2022-07-04 11:49:59,883 DEBUG root] Executing shell: ['/Users/rismanda.kusumadewi/.bzt/jmeter-taurus/5.4.2/bin/jmeter.sh', '-j', '/var/folders/3w/89gsk1z94zd_rzqk1_csgw6r0000gn/T/jmeternziisp6qlog', '--version'] at .
+[2022-07-04 11:50:02,079 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.4.2
+
+Copyright (c) 1999-2021 The Apache Software Foundation
+
+ / 
+[2022-07-04 11:50:02,083 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/kpi.jtl
+[2022-07-04 11:50:02,084 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/error.jtl
+[2022-07-04 11:50:02,085 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=10, throughput=None, ramp_up=60.0, hold=300.0, iterations=0, duration=360.0, steps=None)
+[2022-07-04 11:50:02,087 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (Thread Group) to ConcurrencyThreadGroup and apply load parameters
+[2022-07-04 11:50:02,088 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx
+[2022-07-04 11:50:02,089 DEBUG JMX] Saving JMX to: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx
+[2022-07-04 11:50:02,090 DEBUG root] Executing shell: ['/Users/rismanda.kusumadewi/.bzt/jmeter-taurus/5.4.2/bin/PluginsManagerCMD.sh', 'install-for-jmx', '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx'] at .
+[2022-07-04 11:50:08,480 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx
+2022-07-04 11:50:03,392 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2022-07-04 11:50:03,526 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-3c01972f791111f6b08b428451d6e304-nongui
+2022-07-04 11:50:06,631 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.4.2, jmeter-ftp=5.4.2, jmeter-http=5.4.2, jmeter-jdbc=5.4.2, jmeter-jms=5.4.2, jmeter-junit=5.4.2, jmeter-java=5.4.2, jmeter-ldap=5.4.2, jmeter-mail=5.4.2, jmeter-mongodb=5.4.2, jmeter-native=5.4.2, jmeter-tcp=5.4.2, jmeter-components=5.4.2]
+2022-07-04 11:50:06,634 INFO o.j.r.PluginManagerCMD: Params line is: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx
+2022-07-04 11:50:07,207 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-07-04 11:50:07,238 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-07-04 11:50:07,245 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-07-04 11:50:07,700 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2022-07-04 11:50:07,705 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-07-04 11:50:07,755 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-04 11:50:07,756 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-04 11:50:07,756 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-04 11:50:07,756 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-04 11:50:07,756 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-07-04 11:50:07,756 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-07-04 11:50:08,082 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2022-07-04 11:50:08,481 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter.out
+[2022-07-04 11:50:08,481 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter.err
+[2022-07-04 11:50:08,482 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2022-07-04 11:50:08,482 DEBUG root] Importing module: bzt.modules.reporting
+[2022-07-04 11:50:08,506 DEBUG easyprocess] version=1.1
+[2022-07-04 11:50:08,510 DEBUG pyvirtualdisplay] version=2.2
+[2022-07-04 11:50:08,512 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/reporting.py'>
+[2022-07-04 11:50:08,513 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2022-07-04 11:50:08,513 DEBUG root] Importing module: bzt.modules.console
+[2022-07-04 11:50:08,513 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/console.py'>
+[2022-07-04 11:50:08,513 DEBUG Engine] Module config: blazemeter {'class': 'bzt.modules.blazemeter.BlazeMeterUploader'}
+[2022-07-04 11:50:08,513 DEBUG root] Importing module: bzt.modules.blazemeter
+[2022-07-04 11:50:08,513 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/Cellar/bzt/1.16.3/libexec/lib/python3.9/site-packages/bzt/modules/blazemeter/__init__.py'>
+[2022-07-04 11:50:08,518 WARNING Engine.blazemeter] No BlazeMeter API key provided, will upload anonymously
+[2022-07-04 11:50:08,518 DEBUG Engine.blazemeter] Installing http client
+[2022-07-04 11:50:08,518 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/web/version None
+[2022-07-04 11:50:08,518 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/web/version
+[2022-07-04 11:50:08,565 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2022-07-04 11:50:09,604 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/version HTTP/1.1" 200 261
+[2022-07-04 11:50:09,605 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": "BACKEND-CI/release-2022-06-21 8 release-2022-06-21 f9b4be282afe0c66cc2808b5f98ce3066ceab4a0 Wed Jun 22 14:36:39 2022 +0200 f9b4be282afe0c66cc2808b5f98ce3066ceab4a0\n",
+    "request_id": "62c27181985
+[2022-07-04 11:50:09,607 DEBUG Engine.Configuration] Dumping YAML config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.yml
+[2022-07-04 11:50:09,622 DEBUG Engine.Configuration] Dumping JSON config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.json
+[2022-07-04 11:50:09,622 INFO Engine] Starting...
+[2022-07-04 11:50:09,622 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10d6953d0>
+[2022-07-04 11:50:09,623 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x10d6c4400>
+[2022-07-04 11:50:09,623 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x13ca6d550>
+[2022-07-04 11:50:09,623 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x13ca6d370>
+[2022-07-04 11:50:09,623 INFO Engine.console] Waiting for results...
+[2022-07-04 11:50:09,623 DEBUG Engine] Startup <bzt.modules.blazemeter.blazemeter_reporter.BlazeMeterUploader object at 0x13ca904c0>
+[2022-07-04 11:50:09,623 INFO Engine.blazemeter] Initiating data feeding...
+[2022-07-04 11:50:09,623 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/sessions None
+[2022-07-04 11:50:09,623 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/sessions
+[2022-07-04 11:50:10,061 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/sessions HTTP/1.1" 201 3791
+[2022-07-04 11:50:10,062 DEBUG User] Response [201]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "session": {
+            "id": "r-ext-62c27181e30f5365877722",
+            "name": "external",
+            "userId": 386483,
+            "publicToken": "j76nQ7fD7Hg9wuHTaz0LXFp0N48isiVFaNkZ
+[2022-07-04 11:50:10,062 INFO Engine.blazemeter] Started data feeding: https://a.blazemeter.com/app/?public-token=j76nQ7fD7Hg9wuHTaz0LXFp0N48isiVFaNkZ3KRXFHrOsWPcfJ#reports/r-ext-62c27181e30f5365877722/summary
+[2022-07-04 11:50:11,083 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x10d695400>
+[2022-07-04 11:50:11,084 DEBUG Engine.local] Delay setup for jmeter/Thread Group: 0(start-at) + 0(delay) = 0
+[2022-07-04 11:50:11,089 DEBUG Engine.Configuration] Dumping YAML config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.yml
+[2022-07-04 11:50:11,118 DEBUG Engine.Configuration] Dumping JSON config into /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/effective.json
+[2022-07-04 11:50:11,121 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2022-07-04 11:50:11,121 DEBUG root] Leveled up log file verbosity
+[2022-07-04 11:50:11,135 DEBUG Engine] New artifact filename: /Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/GRACEFUL
+[2022-07-04 11:50:11,138 DEBUG root] Executing shell: ['/Users/rismanda.kusumadewi/.bzt/jmeter-taurus/5.4.2/bin/jmeter.sh', '-t', '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/modified_requests.jmx', '-j', '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter.log', '-q', '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/jmeter-bzt.properties', '-n', '-S', '/Users/rismanda.kusumadewi/sample_app/2022-07-04_11-49-51.005745/system.properties'] at /Users/rismanda.kusumadewi/sample_app
+[2022-07-04 11:50:11,166 DEBUG Engine.local] Starting execution: jmeter/Thread Group, rest of available slots: 9223372036854775806
+[2022-07-04 11:50:11,168 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2022-07-04 11:50:11,473 INFO Engine.console] Waiting for finish...
